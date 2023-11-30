@@ -7,6 +7,11 @@ app_description = "This is practice project"
 app_email = "karthik.gb@promantia.com"
 app_license = "MIT"
 
+
+
+
+ 
+
 # Includes in <head>
 # ------------------
 
@@ -215,3 +220,9 @@ app_license = "MIT"
 # auth_hooks = [
 #	"airplane_mode.auth.validate"
 # ]
+fixtures =[
+    {
+         "dt": "Custom Field",
+         "filters": [["module", "=", "Airplane Mode"]]
+    }
+]
